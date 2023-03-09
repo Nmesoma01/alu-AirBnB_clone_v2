@@ -2,7 +2,7 @@
 """deploy web static"""
 from fabric.api import run, env, put
 from os.path import exists
-env.hosts = ['54.91.171.75', '54.234.45.172']
+env.hosts = ['52.87.253.123', '3.94.152.160']
 
 
 def do_deploy(archive_path):
